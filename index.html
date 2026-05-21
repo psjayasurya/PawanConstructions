@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAWAN Constructions & Developers | Premium Real Estate in Tirupati</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="Logo.png" alt="PAWAN Constructions Logo" class="logo">
+                <span class="brand-text">PAWAN Constructions</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Hero Background Slider -->
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('slide1.png');"></div>
+            <div class="slide" style="background-image: url('slide2.png');"></div>
+            <div class="slide" style="background-image: url('slide3.png');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Building Dreams,<br>Crafting Excellence</h1>
+            <p class="hero-subtitle">Premium Real Estate & Construction in Tirupati, Andhra Pradesh</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>PAWAN Constructions & Developers</h3>
+                    <p>A premium real estate and construction company based in Tirupati, Andhra Pradesh. We specialize in residential, commercial, and luxury infrastructure projects with a focus on quality, innovation, trust, and modern architecture.</p>
+                    <p>Our mission is to build world-class developments that combine durability, elegance, and customer satisfaction. Every project we undertake reflects our commitment to excellence and our passion for creating spaces that inspire.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Innovation</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <span>Trust & Integrity</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-building"></i>
+                            <span>Modern Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Carousel (Moved Here) -->
+                <div class="about-carousel">
+                    <div class="carousel-container">
+                        <button class="carousel-btn prev-btn" aria-label="Previous Slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        
+                        <div class="carousel-track-container">
+                            <div class="carousel-track">
+                                <!-- Slide 1 -->
+                                <div class="carousel-slide active">
+                                    <img src="carousels/carousel1.png" alt="Modern Residential Exterior">
+                                    <div class="slide-caption">
+                                        <h3>Modern Residential Masterpiece</h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-slide">
+                                    <img src="carousels/carousel2.png" alt="Contemporary Villa Design">
+                                    <div class="slide-caption">
+                                        <h3>Contemporary Villa Design</h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="carousel-slide">
+                                    <img src="carousels/carousel3.png" alt="Luxury High-Rise Entrance">
+                                    <div class="slide-caption">
+                                        <h3>Luxury High-Rise Entrance</h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="carousel-slide">
+                                    <img src="carousels/carousel4.png" alt="Premium Commercial Development">
+                                    <div class="slide-caption">
+                                        <h3>Premium Commercial Plaza</h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 5 -->
+                                <div class="carousel-slide">
+                                    <img src="carousels/carousel5.jpg" alt="Exquisite Interior Concepts">
+                                    <div class="slide-caption">
+                                        <h3>Exquisite Interior Styling</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-btn next-btn" aria-label="Next Slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <span class="indicator-dot active" data-slide="0"></span>
+                        <span class="indicator-dot" data-slide="1"></span>
+                        <span class="indicator-dot" data-slide="2"></span>
+                        <span class="indicator-dot" data-slide="3"></span>
+                        <span class="indicator-dot" data-slide="4"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Statistics Row (Moved below the grid) -->
+            <div class="about-stats-row">
+                <div class="stat">
+                    <h3 class="stat-number" data-target="150">0</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3 class="stat-number" data-target="500">0</h3>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+                <div class="stat">
+                    <h3 class="stat-number" data-target="15">0</h3>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+                <div class="stat">
+                    <h3 class="stat-number" data-target="100">0</h3>
+                    <p class="stat-label">Team Members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Construction</h3>
+                    <p>Building dream homes with modern designs, premium materials, and attention to every detail for comfortable living.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>Commercial Projects</h3>
+                    <p>Creating state-of-the-art commercial spaces that enhance business operations and reflect corporate excellence.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Luxury Infrastructure</h3>
+                    <p>Delivering premium luxury developments with world-class amenities and sophisticated architectural designs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Architectural Design</h3>
+                    <p>Innovative architectural solutions that blend aesthetics with functionality for stunning results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Renovation & Remodeling</h3>
+                    <p>Transforming existing spaces into modern, functional environments while preserving character.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Real Estate Development</h3>
+                    <p>Comprehensive development services from land acquisition to project completion and handover.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="royal_heights.png" alt="Royal Heights">
+                    </div>
+                    <div class="project-info">
+                        <h3>Royal Heights</h3>
+                        <p>Luxury Residential Complex</p>
+                        <span class="project-tag">Residential</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="silver_plaza.png" alt="Silver Plaza">
+                    </div>
+                    <div class="project-info">
+                        <h3>Silver Plaza</h3>
+                        <p>Premium Commercial Hub</p>
+                        <span class="project-tag">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="grand_estate.png" alt="Grand Estate">
+                    </div>
+                    <div class="project-info">
+                        <h3>Grand Estate</h3>
+                        <p>Luxury Villa Community</p>
+                        <span class="project-tag">Luxury</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="tirupati_towers.png" alt="Tirupati Towers">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tirupati Towers</h3>
+                        <p>Modern Office Complex</p>
+                        <span class="project-tag">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="blue_haven.png" alt="Blue Haven">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blue Haven</h3>
+                        <p>Premium Apartments</p>
+                        <span class="project-tag">Residential</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="industrial_park.png" alt="Industrial Park">
+                    </div>
+                    <div class="project-info">
+                        <h3>Industrial Park</h3>
+                        <p>Infrastructure Development</p>
+                        <span class="project-tag">Infrastructure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>PAWAN Constructions & Developers</h3>
+                    <p>Ready to build your dream project? Contact us today for a consultation.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Annamaiah Circle, Tirupati, Andhra Pradesh – 517501</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919966100241">+91 9966100241</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:Contact@pawanbuilders.com">Contact@pawanbuilders.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Website</h4>
+                                <p><a href="https://www.pawanbuilders.com" target="_blank">www.pawanbuilders.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="Logo.png" alt="PAWAN Constructions Logo" class="footer-logo">
+                    <p>Building world-class developments with durability, elegance, and customer satisfaction.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Residential Construction</a></li>
+                        <li><a href="#">Commercial Projects</a></li>
+                        <li><a href="#">Luxury Infrastructure</a></li>
+                        <li><a href="#">Architectural Design</a></li>
+                        <li><a href="#">Renovation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Working Hours</h4>
+                    <ul>
+                        <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                        <li>Saturday: 9:00 AM - 2:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-map">
+                    <h4>Our Location</h4>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0044547285646!2d79.41660507507424!3d13.628756086603098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0051187441%3A0x6b4c10978e6f1f44!2sAnnamaiah%20Circle%2C%20Tirupati%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1716272100000!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PAWAN Constructions & Developers. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
